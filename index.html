@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="./weather.css"> 
 </head>
 <body>
-<div  class="main container">
+<div  class="main container d-flex flex-column align-items-center">
                         <div class="search_c shadow input-group mt-5 mb-3 container w-75 flex-nowrap">
                             <div><i class="fa-solid fa-location-dot fa-lg"></i></div>
                             <div style="width: 100%;"><input id="c_name" type="text" autocomplete="off" class="inp ms-2" placeholder="Enter City Name" aria-label="city_name" aria-describedby="basic-addon1"></div>
                             <div style="width: 30px;"><button onclick="fetchData()" class="bt1 ms-2" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button></div>
                         </div>
-            <div id="major_div" class="row container-fluid my-3">
+            <div id="major_div" class="major_class row container-fluid my-3">
             <div class="col-lg-2">
+
             </div>
             <div class="col-lg-4">
                 <div class="d-flex flex-wrap">
