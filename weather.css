@@ -2,13 +2,14 @@ body{
     background-image: url(./image/background_img.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    /* height: 100vh; */
     color: white;
 }
 
 .search_c{
     background: transparent;
-    backdrop-filter: blur(10px);    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
     padding: 20px;
     display: flex;
@@ -24,6 +25,7 @@ body{
 .primdiv{
     background: transparent;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -31,6 +33,7 @@ body{
 .secdiv{
     background: transparent;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -43,7 +46,6 @@ i{
 
 
 .inp{
-    /* border-radius: 50px; */
     background: transparent;
     width: 100%;
     outline: none;
@@ -114,8 +116,12 @@ height: 25px;
     height: 24px;
 }
 
-/* #major_div{
-    display: none;
-} */
+
+
+
+
+
+
+
 
 

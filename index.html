@@ -10,7 +10,7 @@
 </head>
 <body>
 <div  class="main container d-flex flex-column align-items-center">
-                        <div class="search_c shadow input-group mt-5 mb-3 container w-75 flex-nowrap">
+                        <div class="search_c shadow input-group w-75 mt-5 mb-3 container flex-nowrap">
                             <div><i class="fa-solid fa-location-dot fa-lg"></i></div>
                             <div style="width: 100%;"><input id="c_name" type="text" autocomplete="off" class="inp ms-2" placeholder="Enter City Name" aria-label="city_name" aria-describedby="basic-addon1"></div>
                             <div style="width: 30px;"><button onclick="fetchData()" class="bt1 ms-2" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button></div>
@@ -39,8 +39,8 @@
                     
                             <div id="temp" class="text-center mt-3">
                                 <!-- temp is here -->
-                                <h1 id="h1_temp">--°C</h1>
-                                <h2 id="h2_desc">--</h2>
+                                <h1 id="tempid">--°C</h1>
+                                <h2 id="descid">--</h2>
                             </div>
                     
                 
@@ -49,14 +49,14 @@
                                 <!-- humidity is here -->
                                 <h1 class="text-center"><i class="fa-solid  fa-droplet"></i></h1>
                                 <h6 class="text-center">Humidity</h6>
-                                <h5 id="h5_hum" class="text-center">--%</h5>
+                                <h5 id="humid" class="text-center">--%</h5>
                             </div>
             
                             <div id="wind" class="mt-3">
                                 <!-- wind speed is here -->
                                 <h1 class="text-center"><i class="fa-solid fa-wind fa-beat-fade"></i></h1>
                                 <h6 class="text-center">Wind Speed</h6>
-                                <h5 id="h5_wind" class="text-center">--Km/h</h5>
+                                <h5 id="windid" class="text-center">--Km/h</h5>
                             </div>
                         </div>
                     </div>
@@ -73,35 +73,35 @@
                             <!-- feels like -->
                             <i class="fa-solid fa-lg fa-temperature-three-quarters container mt-3"></i>
                             <p class="container">Feels Like</p>
-                            <h5 id="h5_temp" class="container">--°C</h5>
+                            <h5 id="feelid" class="container">--°C</h5>
                         </div>
                 
                         <div id="visible" class="visible_c">
                             <!-- visibility -->
                             <i class="fa-solid fa-eye container mt-2"></i>
                             <p class="container">Visibility</p>
-                            <h5 id="h5_vision" class="container">--Km</h5>
+                            <h5 id="visionid" class="container">--Km</h5>
                         </div>
                 
                         <div id="pressure" class="pressure_c">
                             <!-- pressure -->
                             <img class="pressure_icon ms-2 mt-1" src="./image/pressure_icon.png" alt="">
                             <p class="container">Pressure</p>
-                            <h5 id="h5_pressure" class="container">--hPa</h5>
+                            <h5 id="pressureid" class="container">--hPa</h5>
                         </div>
                     
                         <div id="sunr" class="sunr_c">
                             <!-- sunrise -->
                             <i class="fa-solid fa-sun container mt-2"></i>
                             <p class="container">Sunrise</p>
-                            <h6 id="h6_sunrise" class="container">--:--</h6>
+                            <h6 id="sunriseid" class="container">--:--</h6>
                         </div>
                 
                         <div id="suns" class="suns_c">
                         <!-- sunset -->
                         <i class="fa-solid fa-sun container mt-2"></i>
                         <p class="container">Sunset</p>
-                        <h6 id="h6_sunset" class="container">--:--</h6>
+                        <h6 id="sunsetid" class="container">--:--</h6>
                         </div>
     
                 
